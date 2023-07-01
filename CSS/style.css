@@ -122,11 +122,38 @@ main .section2 {
     align-items: center;
 }
 
-main .section2 .esas-div {
-    display: flex;
+main .section2 .sec2 {
+    display: flex;  
     gap: 23px;
     margin-right: 56px;
-    margin-left: 56px;
+    margin-left: 56px;  
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+main .section2 .sec2 .sec2-div1 {
+    border-radius: 8px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    flex: 0;
+}
+
+main .section2 .sec2 .sec2-div2 {
+    border-radius: 8px;
+    background: var(--white, #FFF);
+    flex: 0;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+   
+}
+
+main .section2 .sec2 .sec2-div3 {
+    border-radius: 8px;
+    background: var(--white, #FFF);
+    flex: 0;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+   
 }
 
 main .section2 h2 {
@@ -141,7 +168,7 @@ main .section2 h2 {
     margin-bottom: 24px;
 }
 
-main .section2 p {
+main .section2 .sec2-esas-p{
     color: #303031;
     text-align: center;
     font-size: 18px;
@@ -149,45 +176,37 @@ main .section2 p {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    font-weight: 400;
+    margin: auto 272px 48px 273px;
+
 
 } 
 
-main .section2 .sec2-esas-p { 
-    margin: auto 272px 48px 273px;
+main .section2 .sec2 div img {
+    margin: 64px 161px 24px 162px;
 }
 
-main .section2 .esas-div div {
-    display: flex;
-    flex-direction: column;
-    background: var(--white, #FFF);
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
-    border-radius: 8px;
-    align-items: center;
-    flex-shrink: 0;
-    width: 500px;
-    height: 340px;
-    
-    
-}
-
-main .section2 .esas-div div img {
-    margin-bottom: 24px;
-    margin-top: 64px;
-}
-
-main .section2 .esas-div div h3 {
-    color: #303031;
-    text-align: center;
-    font-size: 24px;
+main .section2 .sec2 div h3 {
+    margin: 24px 24px 16px; 
+    color: #303031  ;
+    font-size: 18px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
-    line-height: 32px;
-    margin-bottom: 16px;
-} 
+    line-height: 24px;
+    letter-spacing: -0.36px;
 
-main .section2 .esas-div div p {
-    margin: 0 24px;
+}
+
+main .section2 .sec2  div p {
+    margin: 0 24px 24px; 
+    color: #303031;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
 }
 
 /* section 3 */
@@ -787,13 +806,11 @@ main .section6 .son {
 }
 
 /* section 7  */
- main .section7 {
-    display: flex;
-    
- }
+ 
 
  main .section7 img {
-    margin-right: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
     margin-bottom: 44px;
  }
 
@@ -882,3 +899,4 @@ footer ul li {
 footer ul .li4 {
     color: #71A894;
 }
+
