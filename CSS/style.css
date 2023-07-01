@@ -95,7 +95,7 @@ main .section1 .sec1-div1 {
     margin-bottom: 39px;
 }
 
-.sec1-div1 button {
+.sec1-div1 a {
     background-color: #71A894;
     color: #FFF;
     font-size: 18px;
