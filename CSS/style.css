@@ -7,11 +7,11 @@ body {
 /* header */
 
 header {
-    display: inline-flex;
+    display: flex;
     padding: 31px 33px 32px 31px;
-    justify-content: center;
+    justify-content: space-between;
+    align-content: space-between;
     align-items: center;
-    gap: 720px;
     border-bottom: 1px solid #E7E7E7;
 }
 .logo {
